@@ -14,8 +14,10 @@
         >
           <span>{{ item.title }}</span>
         </a>
+      } @empty {
+        <mat-spinner style="height: 50px"></mat-spinner>
       }
     </div>
-    <mat-icon>arrow_downward</mat-icon>
+    <!-- <mat-icon>arrow_downward</mat-icon> -->
   </div>
 </main>
