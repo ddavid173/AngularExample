@@ -6,7 +6,6 @@ export type Links = { title: String, link: String}[] | [];
   providedIn: 'root'
 })
 export class LinksService {
-  url = 'https://localhost:4200/data/linkData.json'
   links: Links = [];
   constructor() { }
 

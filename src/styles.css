@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; background-color: #fff;}
+html, body { height: 100%; background-color: #000;}
 body { 
     margin: 0; 
     font-family: Roboto, "Helvetica Neue", sans-serif; 
@@ -10,4 +10,6 @@ body {
             #272727 80%,
             #000 100%
         );
+
+    background-color: #000;
 }
